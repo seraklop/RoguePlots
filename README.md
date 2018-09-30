@@ -7,4 +7,4 @@ Illustrating phylogenetic placement of fossils using RoguePlots: An example from
 Seraina Klopfstein & Tamara Spasojevic
 DOI: https://doi.org/10.1101/425090 
 
-The code here represents the source code for an R package. A compiled version for Windows is also provided.
+The rogue.plot folder represents the source code for an R package. A compiled version for Windows is also provided.
