@@ -1,7 +1,7 @@
 # RoguePlots
 Create phlylogeny plots that illustrate the placement of rogue taxa
 
-RoguePlots are tree summaries that show the placement of individual taxa on a partially unresolved phylogeny, e.g., a consensus tree or other tree summary. These plots are described in detail in the following publication, available as a preprint from biorXive:
+RoguePlots are tree summaries that show the placement of individual taxa on a partially unresolved phylogeny, e.g., a consensus tree or other tree summary. These plots are described in detail in the following publication, available as a preprint from bioRXiv:
 Illustrating phylogenetic placement of fossils using RoguePlots: An example from ichneumonid parasitoid wasps (Hymenoptera, Ichneumonidae) and an extensive morphological matrix
 
 Seraina Klopfstein & Tamara Spasojevic
