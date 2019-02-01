@@ -6,10 +6,7 @@ Imports: ape (>= 5.0)
 Depends: R (>= 2.10)
 Suggests: RColorBrewer
 Description: This package creates rogue taxon plots as introduced in Klopfstein & Spasojevic 2018. In brief, it plots a phylogenetic tree (in the form of a ape::phylo object) in rectangular format ('phylogram') with edges coloured or shaded according to the frequency a taxon attaches to that edge in a set of reference trees (such as Bayesian posterior or bootstrap trees). The tree that is plotted can be fully or partially resolved, such as a consensus tree, and the reference trees might or might not all be fully compatible with the plotted tree. The rogue taxon thus will sometimes attach to an edge in a reference tree which is not present in the plotted tree; in this case, instead of one of the horizontal edges, the vertical edge corresponding to the most recent common ancestor of the taxa subtended by the attachment point in the reference tree is coloured.
-Authors@R: c(
-   person("Seraina", "Klopfstein", email = "klopfstein@nmbe.ch", role = c("aut", "cre")), 
-   person("Tamara", "Spasojevic", email = "tamara.spasojevic@students.unibe.ch", role = "ctb") 
-   )
+Authors@R: c( person("Seraina", "Klopfstein", email = "klopfstein@nmbe.ch", role = c("aut", "cre")), person("Tamara", "Spasojevic", email = "tamara.spasojevic@students.unibe.ch", role = "ctb") )
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
