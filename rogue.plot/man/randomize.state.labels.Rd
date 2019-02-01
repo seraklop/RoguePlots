@@ -4,7 +4,8 @@
 \alias{randomize.state.labels}
 \title{Randomize state labels}
 \usage{
-randomize.state.labels(alignment, ordered.chars = NULL, return.as.list = F)
+randomize.state.labels(alignment, ordered.chars = NULL,
+  return.as.list = F)
 }
 \arguments{
 \item{alignment}{An alignment of characters, either standard or DNA, in the

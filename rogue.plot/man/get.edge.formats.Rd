@@ -4,9 +4,9 @@
 \alias{get.edge.formats}
 \title{Get Edge Formatting for Rogue Plots}
 \usage{
-get.edge.formats(tree, placements, zero.col = "black", col = paste("grey",
-  seq(from = 95, to = 15, by = -8), sep = ""), zero.lwd = 1, lwd = 3,
-  min.prob = 0.01)
+get.edge.formats(tree, placements, zero.col = "black",
+  col = paste("grey", seq(from = 95, to = 15, by = -8), sep = ""),
+  zero.lwd = 1, lwd = 3, min.prob = 0.01)
 }
 \arguments{
 \item{tree}{an object of class \code{phylo}.}
@@ -78,5 +78,8 @@ edge.formats <- get.edge.formats(tree, placements, zero.col = "black",
 str(edge.formats)
 }
 \references{
-Klopfstein, S., Spasojevic, T.(2018) ...
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }

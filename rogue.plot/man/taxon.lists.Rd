@@ -17,6 +17,9 @@ List of two vectors each containing important taxon sets in the parasitoid
   data. See Klopfstein & Spasojevic 2018 for details.
 }
 \references{
-Klopfstein & Spasojevic (2018)
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }
 \keyword{datasets}

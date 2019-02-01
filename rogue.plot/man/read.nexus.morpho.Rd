@@ -42,5 +42,8 @@ str(morpho)
 unlink("morpho.temp")
 }
 \references{
-Klopfstein, S., Spasojevic, T. (2018).
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }

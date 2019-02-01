@@ -4,8 +4,9 @@
 \alias{create.rogue.plot}
 \title{Create Rogue Plots}
 \usage{
-create.rogue.plot(tree, reftrees, rogues, outgroup = 1, type = "greyscale",
-  col = NULL, outfile.table = "Rogue_taxon_placements.txt",
+create.rogue.plot(tree, reftrees, rogues, outgroup = 1,
+  type = "greyscale", col = NULL,
+  outfile.table = "Rogue_taxon_placements.txt",
   outfile.plot = "Rogue_taxon_placements.pdf", min.prob = 0.01,
   cex.tips = par("cex"), tip.color = "black")
 }
@@ -57,7 +58,7 @@ then the number of tips (defaults to "black").}
 \description{
 This function can be used to illustrate the placement of rogue taxa in a
   partially resolved (e.g., consensus) tree. The rogue plot has been
-  introduced in Klopfstein & Spasejovic 2018 to illustrate the placement of
+  introduced in Klopfstein & Spasojevic (2018) to illustrate the placement of
   fossil taxa on a consensus tree resulting from a phylogenetic analysis of
   a morphological dataset, but can be used to visualize taxon placements in
   various contexts.
@@ -119,5 +120,8 @@ create.rogue.plot(consensus.tree, fossil.trees, rogues = taxon.lists$fossils,
   outfile.plot = "Rogue_plots.pdf")
 }
 \references{
-Klopfstein, S., Spasojevic, T. (2018)
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }

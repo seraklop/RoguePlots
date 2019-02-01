@@ -5,13 +5,14 @@
 \title{Draw a Two-Coloured Phylogram}
 \usage{
 phylogramm.plot.twocoloured(tree, edge.color = "black",
-  vertical.edge.color = "grey50", edge.lwd = 2, vertical.edge.lwd = 2,
-  use.edge.length = TRUE, show.tip.label = TRUE, show.node.label = FALSE,
+  vertical.edge.color = "grey50", edge.lwd = 2,
+  vertical.edge.lwd = 2, use.edge.length = TRUE,
+  show.tip.label = TRUE, show.node.label = FALSE,
   tip.color = "black", edge.lty = 1, font = 3, cex = par("cex"),
   adj = NULL, srt = 0, no.margin = FALSE, root.edge = FALSE,
   label.offset = 0, underscore = FALSE, direction = "rightwards",
-  plot = TRUE, node.depth = 1, align.tip.label = FALSE, x.lim = NULL,
-  y.lim = NULL, ...)
+  plot = TRUE, node.depth = 1, align.tip.label = FALSE,
+  x.lim = NULL, y.lim = NULL, ...)
 }
 \arguments{
 \item{tree}{an object of class \code{phylo} to be plotted.}
@@ -167,5 +168,8 @@ phylogramm.plot.twocoloured(tree, edge.color = ff$cols.horizontal,
 
 }
 \references{
-Klopfstein, S., Spasojevic, T. (2018).
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }

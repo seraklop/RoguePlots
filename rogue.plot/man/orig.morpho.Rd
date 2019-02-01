@@ -3,7 +3,7 @@
 \docType{data}
 \name{orig.morpho}
 \alias{orig.morpho}
-\title{The Original Dataset from Klopfstein & Spasejovic (2018)}
+\title{The Original Dataset from Klopfstein & Spasojevic (2018)}
 \format{List with as elements for each taxon a vector of mode
   \code{character} containing the coding of 222 morphological characters.
   The names of the list items correspond to the taxa in the analysis.}
@@ -15,6 +15,9 @@ Morphological matrix in its original form as it was used in the parasitoid
   fossil study. See Klopfstein & Spasojevic 2018 for details.
 }
 \references{
-Klopfstein & Spasojevic (2018)
+Klopfstein, S., Spasojevic, T. (2018). Illustrating phylogenetic placement
+of fossils using RoguePlots: An example from ichneumonid parasitoid wasps
+(Hymenoptera, Ichneumonidae) and an extensive morphological matrix. bioRxiv
+https://doi.org/10.1101/425090
 }
 \keyword{datasets}
